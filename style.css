@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@300&display=swap");
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+<--MENÚ PRINCIPAL-- > nav {
+  top: 0;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  color: green;
+  background: white;
+  box-shadow: 4px 7px 5px 0px rgba(62, 66, 66, 0.21);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  background-color: #e5c4ce;
+  border-radius: 10%;
+  align-items: center;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  list-style: none;
+}
+
+h1 {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 2px 2px 2px #ce5937;
+  font-size: 2em;
+  text-align: center;
+}
+
+nav{
+  
+  position: sticky; 
+  
+}
+
+.contenedor{
+  
+  position: fixed;
+  top:0;
+  left:80%;
+  width: 20%;
+  height:20%;
+  text-align: right;
+  
+  
+}
+
+svg{
+  
+  height:100%;
+}
+
+
+<--FIN MENÚ PRINCIPAL-- > <--SECTION 1-- > nav ul a {
+  text-decoration: none;
+}
+
+/*SECTION BODY*/
+
+
+
+section{
+  
+  padding:3em;
+  align-items: center;
+  justify-content: center;
+}
+
+#box1 {
+  background-color: #4b7bae;
+  background-size: cover;
+  border: solid blue 2px;
+  height: 50vh;
+}
+.texto1 {
+  font-size: 1em;
+  justify-content: center;
+  padding: 0 1em 0 1em;
+  text-align: justify;
+  color: white;
+}
+
+#box2 {
+  background-color: #B37DC4;
+  background-size: cover;
+  border: solid blue 2px;
+  height: 50vh;
+}
+.texto2 {
+  font-size: 1em;
+  justify-content: center;
+  padding: 0 1em 0 1em;
+  text-align: justify;
+  color: white;
+}
+
+#box3 {
+  background-color: #4b7bae;
+  background-size: cover;
+  border: solid blue 2px;
+  height: 50vh;
+}
+.texto3 {
+  color: white;
+  padding: 0 1em 0 1em;
+  text-align: justify;
+  font-size: 1em;
+}
+
+#box4 {
+  background-color: #B37DC4;
+  background-size: cover;
+  border: solid blue 2px;
+  height: 50vh;
+}
+.texto4 {
+  color: white;
+  padding: 0 1em 0 1em;
+  text-align: justify;
+  font-size: 1em;
+}
+
+#box5 {
+  background-color: #4b7bae;
+  background-size: cover;
+  border: solid blue 2px;
+  height: 50vh;
+}
+.texto5 {
+  color: white;
+  padding: 0 1em 0 1em;
+  text-align: justify;
+  font-size: 1em;
+}
+#cont {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.caja {
+  flex-wrap: wrap;
+  justify-content: stretch;
+  width: 70%;
+}
+
+footer {
+  border: solid red 2px;
+}
+background: black;
